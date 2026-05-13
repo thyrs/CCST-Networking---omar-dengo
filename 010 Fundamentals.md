@@ -36,7 +36,7 @@
 | WAN  | Wide Area Network           | Conjunto de redes de uso colectivo                        |
 | MAN  | Metropolitan Area Network   | A Nivel de ciudad                                         |
 | CAN  | Controller Area Network     | used in vehicle components                                |
-| PAN  | Personal Area Network       | Personal (100m o menos)                                   |
+| PAN  | Personal Area Network       | Personal (10m o menos)                                    |
 | WLAN | Wireless Local Area Network | Wireless= Pertenece a un solo duen'o                      |
 |      |                             |                                                           |
 

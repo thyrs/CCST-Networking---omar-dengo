@@ -55,7 +55,7 @@ Module 20: Number Systems
 Module 31: Data Link Layer             
 Module 21: Ethernet Switching
 
-    ### Week 6
+### Week 6
 Module 22: Network Layer 
 Module 12: Gateways to Other Networks                                              
 Module 14: Routing Between Networks                                              

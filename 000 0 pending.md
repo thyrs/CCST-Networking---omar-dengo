@@ -8,4 +8,4 @@
     - [ ] Markdown table (Takumi Ishii)
     - [ ] Cisco IOS Syntax (jamiewoodio)
     - [ ] GitHub Repositories (GitHub)
-* [ ] install packet tracer
+* [ ] install packet tracer https://www.netacad.com/resources/lab-downloads?courseLang=en-US
