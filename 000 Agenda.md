@@ -15,6 +15,8 @@ By the end of the course, students will be able to:
 •	Troubleshoot connectivity in a small network.
 
 
+## path:
+
 | CCST Networking   |       |
 | ----------------- | ----- |
 | Checkpoint Exams  | 12%   |
