@@ -19,14 +19,6 @@
 | > *Preguntas / presentaciones*                    | 1.1 frames and packets                                                |
 |                                                   | 1.1 addressing                                                        |
 |                                                   |                                                                       |
-| __2: Network Components, Types, and Connections__ | 3.3.0 Describe endpoint devices.                                      |
-| * Client vs server                                | 3.3.1 Internet of Things (IoT) devices                                |
-| * Peer-to-peer                                    | 3.3.2 computers                                                       |
-| * End devices                                     | 3.3.3 mobile devices                                                  |
-| * Intermediate devices                            | 3.3.4 IP Phone                                                        |
-| * Network media                                   | 3.3.5 printer                                                         |
-| > Install packet tracer, basic navigation         | 3.3.6 server                                                          |
-
 
 ## [ ] 1.3. Differentiate between LAN, WAN, MAN, CAN, PAN, and WLAN.
 
@@ -106,35 +98,10 @@ iperf.exe -c <ip del server> -R
 :: runn as client reverse route
 ```
 
+# Devices & Media
+
 ![131_Devices&Media.jpg](0131_Devices&Media.jpg)
 
-## Client vs Server:
-
-```
-             ┌──────────┐
-  ┌──────────┤ INTERNET ├───────────┐
-  │          └──────────┘           │
-┌─┴──┐                           ┌──┴───┐
-│ PC │                           │SERVER│
-└────┘                           └──────┘
-```
-
-| Type | Server Description                             |
-| ---- | ---------------------------------------------- |
-| File | Access files using a protocol like:            |
-|      | FTP (File Transfer Protocol) port 21           |
-|      |                                                |
-| Web  | Provides web resources using these protocols:  |
-|      | Hypertext Transfer Protocol (HTTP) TCP port 80 |
-|      | Secure HTTP (HTTPS) TCP port 443               |
-|      |                                                |
-| Mail | Email messages are stored in databases         |
-|      | Simple Mail Transfer Protocol (SMTP) 161       |
-|      | Post Office Protocol (POP) 110                 |
-|      | Internet Message Access Protocol (IMAP) 143    |
-
-## Peer-to-peer       
-* The simplest P2P network consists of two directly connected computers using either a wired or wireless connection. Both computers are then able to use this simple network to exchange data and services with each other, acting as __either a client or a server as necessary__
 
     - Printing
     - Bluetooth data transmition
