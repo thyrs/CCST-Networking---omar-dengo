@@ -13,3 +13,5 @@
 
 interesting
 
+# Questions
+velocidad y internet speed
