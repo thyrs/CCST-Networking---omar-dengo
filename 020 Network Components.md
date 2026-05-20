@@ -52,7 +52,7 @@ Module 6: Network Media
 
 # Power over Ethernet (PoE) - device types can be directly powered from the switch
 
-![Alt text](02278image.png)
+![Alt text](./images/02278image.png)
 
 
 ## 35.2.1 Frame Forwarding Methods on Cisco Switches
@@ -83,17 +83,17 @@ POST is completed when the SYST LED rapidly blinks green. If the switch fails PO
 ### Step 1. Check the components.
 Ensure all the components that came with the switch are available. These could include a console cable, power cord, Ethernet cable, and switch documentation.
 
-![Alt text](02278image-1.png)
+![Alt text](./images/02278image-1.png)
 
 ### Step 2. Connect the cables to the switch.
 Connect the PC to the switch with a console cable and start a terminal emulation session. Connect the AC power cord to the switch and to a grounded AC outlet.
-![Alt text](02278image-2.png)
+![Alt text](./images/02278image-2.png)
 
 ## Step 3. Power up the switch.
 Some Cisco switch models do not have an on/off switch, like the Cisco Catalyst 9300 48S switch shown in the figure. To power on the switch, plug one end of the AC power cord into the switch AC power connector, and plug the other end into an AC power outlet.
 
 Note: The Cisco Catalyst 9300 switch in the figure has redundant power supplies in case one fails.
-![Alt text](02278image-3.png)
+![Alt text](./images/02278image-3.png)
 
 
 # In-Band vs Out-of-Band Device Management
@@ -111,9 +111,9 @@ Cisco device loads the following two files into RAM when it is booted:
 # 35.4.1 Video - Cisco Router Components
 
 
-![Router Components](02278image-4.png)
+![Router Components](./images/02278image-4.png)
 
-![RJ45 vs SFP ports](02278image-5.png)
+![RJ45 vs SFP ports](./images/02278image-5.png)
 
 
 __Console__ - Uses a low speed serial or USB connection to provide direct connect, out-of-band management access to a Cisco device.
@@ -126,20 +126,20 @@ __Serial ports__
 
 __PoE - Power over Ethernet__
 
-![serial ports](02278image-9.png)
+![serial ports](./images/02278image-9.png)
 
-![ serial communication](02278image-8.png)
+![ serial communication](./images/02278image-8.png)
 
 # 35.5.1 Power Up the Router
 
 
 Step 1. Securely mount the device to the rack.
 Note: The figure shows a typical scenario of mounting the chassis in a rack.
-![rack](02278image-6.png)
+![rack](./images/02278image-6.png)
 
 Step 2. Ground the device.
 
-![Ground](02278image-7.png)
+![Ground](./images/02278image-7.png)
 
 Step 3. Connect the power cable.
 
@@ -199,17 +199,17 @@ Step 6. Observe the startup messages on the laptop as the router boots up.
 - __Twisted-Pair Cable__:
  * Cable de Red: RJ45 cable connector(Ethernet cable)
 * RJ-11 Cable (telefono)
-![Alt text](02144image.png)
+![Alt text](./images/02144image.png)
 
 
 ### __Coaxial Cable__
-![Alt text](02144image-1.png)
+![Alt text](./images/02144image-1.png)
 
 ### __Glass or plastic fibers within cables__ 
   * large distance
   * Expensive 
   * (fiber-optic cable) - Data is encoded into pulses of light.
-    ![023_Fiber.jpg](02143_Fiber.jpg)
+    ![023_Fiber.jpg](./images/02143_Fiber.jpg)
     
 ### Wireless transmission - Data is encoded via modulation of specific frequencies of electromagnetic waves.
 * WIFI (802.11)

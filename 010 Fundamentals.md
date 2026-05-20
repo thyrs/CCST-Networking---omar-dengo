@@ -37,13 +37,13 @@ __SOHO__: Small Office and Home Office Networks
 ## [ ] 1.3 Physical topologies
 
 > Muestra ubicacion y connectiones fisicas:
-![Physical_topology](0131_Physical_topology.jpg)
+![Physical_topology](./images/0131_Physical_topology.jpg)
 
 
 ## [ ] 1.3 Logical network topologies.   
 
 > Muestra Disen'o y configuracion logica(virtual):
-![Logical_Topology](0132_Logical_Topology.jpg)
+![Logical_Topology](./images/0132_Logical_Topology.jpg)
 
 
 ## [ ] 1.2. Differentiate between bandwidth and throughput.    
@@ -100,7 +100,7 @@ iperf.exe -c <ip del server> -R
 
 # Devices & Media
 
-![131_Devices&Media.jpg](0131_Devices&Media.jpg)
+![131_Devices&Media.jpg](./images/0131_Devices&Medias.jpg)
 
 
     - Printing
