@@ -1,30 +1,30 @@
 # Week 3
-Module 27: The Cisco IOS Command Line 
-Module 28: Build a Small Cisco Network                                                
-Module 17: Network Testing Utilities
-Packet-tracer lab
+- Module 27: The Cisco IOS Command Line 
+- Module 28: Build a Small Cisco Network                                                
+- Module 17: Network Testing Utilities
+- Packet-tracer lab
 
 <!-- use Alt + Z para ver contenido correctamente(View > Word Wrap): -->
 
-| __030 Basic config and SSH__           |                                                                  |
-| -------------------------------------- | ---------------------------------------------------------------- |
-| Module 27: The Cisco IOS Command Line  | 5.5.0 Run basic show commands on a Cisco network device.         |
-| * Primary Command Modes                | 5.5.1 show run, show cdp neighbors, show ip interface brief      |
-| * Hot Keys and Shortcuts               | 5.5.2 show ip route, show version, show inventory, show switch   |
-| * Show Commands                        | 5.5.3 show mac address-table, show interface, show interface x   |
-|                                        | 5.5.4 show interface status;                                     |
-|                                        | 5.5.5 privilege levels; command help and auto-complete           |
-|                                        |                                                                  |
-| Module 28: Build a Small Cisco Network | 37.5.1                                                           |
-| * Basic Switch Configuration           |                                                                  |
-| * SSH                                  | 5.4.1 Remote access (RDP, SSH, telnet)                           |
-|                                        |                                                                  |
-| Module 17*: Network Testing Utilities  | 5.3.0 Run basic diagnostic commands and interpret the results.   |
-| * ping                                 | 5.3.1 ping                                                       |
-| * ipconfig/ifconfig/ip                 | 5.3.2 ipconfig/ifconfig/ip                                       |
-|                                        | 5.3.3 tracert/traceroute                                         |
-|                                        | 5.3.4 nslookup; recognize how firewalls can influence the result |
-|                                        |                                                                  |
+|                                            |                                                                  |
+| ------------------------------------------ | ---------------------------------------------------------------- |
+| **Module** 27: The Cisco IOS Command Line  | 5.5.0 Run basic show commands on a Cisco network device.         |
+| * Primary Command Modes                    | 5.5.1 show run, show cdp neighbors, show ip interface brief      |
+| * Hot Keys and Shortcuts                   | 5.5.2 show ip route, show version, show inventory, show switch   |
+| * Show Commands                            | 5.5.3 show mac address-table, show interface, show interface x   |
+|                                            | 5.5.4 show interface status;                                     |
+|                                            | 5.5.5 privilege levels; command help and auto-complete           |
+|                                            |                                                                  |
+| **Module** 28: Build a Small Cisco Network | 37.5.1                                                           |
+| * Basic Switch Configuration               |                                                                  |
+| * SSH                                      | 5.4.1 Remote access (RDP, SSH, telnet)                           |
+|                                            |                                                                  |
+| **Module** 17*: Network Testing Utilities  | 5.3.0 Run basic diagnostic commands and interpret the results.   |
+| * ping                                     | 5.3.1 ping                                                       |
+| * ipconfig/ifconfig/ip                     | 5.3.2 ipconfig/ifconfig/ip                                       |
+|                                            | 5.3.3 tracert/traceroute                                         |
+|                                            | 5.3.4 nslookup; recognize how firewalls can influence the result |
+|                                            |                                                                  |
 
 
 
@@ -69,23 +69,26 @@ Packet Tracer Labs:
 
 > Run basic diagnostic commands and interpret the results:
 
-### ping [host ip address]
-Test host reachability
+* cmd or cisco ios cli commands:
 
-### ipconfig/ifconfig/ip 
-command is used to display the current IP configuration information for a host.            
+```bat
+ping [host ip address]
+: Test host reachability
 
-### ipconfig /all 
-displays additional information including the MAC address, IP addresses of the default gateway, and the DNS servers. It also indicates if DHCP is enabled, the DHCP server address, and lease information.    
+ipconfig/ifconfig/ip 
+: windows command used to display the current IP configuration information for a host.            
 
-### tracert/traceroute 
+ipconfig /all 
+: windows command. displays additional information including the MAC address, IP addresses of the default gateway, and the DNS servers. It also indicates if DHCP is enabled, the DHCP server address, and lease information.    
+
+
 tracert 8.8.8.8
-shows path to the destination
+: tracert/traceroute 
+: shows path to the destination
 
-### nslookup 
 nslookup youtube.com
-shows DNS (Domain-name) information
-
+: shows DNS (Domain-name) information
+```
 
 - [ ] 17.1.3 Packet Tracer - Use the ipconfig Command
 
