@@ -1,0 +1,54 @@
+
+! esto es un comentario > ctrl + /
+!! Rojo
+!? Azul
+!* verde claro
+!todo naranja
+
+
+
+
+!! Basic show commands on a Cisco network device:
+
+! SE USAN EN EL "PRIVILEGED MODE"
+
+show running-config 
+!*** muestra configuracion actual
+
+show cdp neighbors 
+! cdp = Cisco Discovery Protocol
+! me muestra informacion de los vecinos (solo CISCO devices) directamente conectados
+
+show ip route
+!** me muestra las rutas o redes que conoce mi router
+
+show version 
+! muestra version y modelo del device
+
+show inventory
+! muestra informacion de los modulos fisicos del device
+
+show switch
+! Displays the switch stack status when switches are grouped together using cisco stackwise
+
+show mac-address-table 
+!* muestra mac address table
+
+show interface
+! muestra detalles de todas las interfaces
+
+show interface serial 0/0/0
+!* muestra detalles de la interfaz "serial 0/0/0"
+
+show interface status
+! Displays inventory information about the specific components on a Cisco device
+
+?
+! me muestra la ayuda para poner los comandos
+
+TAB
+! auto-completes the command
+
+
+
+

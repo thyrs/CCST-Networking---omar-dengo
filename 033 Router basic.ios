@@ -1,0 +1,42 @@
+
+                  192.168.10.1                    192.168.20.1
+                  255.255.255.0──┐ ┌────────┐ ┌───255.255.255.0
+   Network:                      ▼ │ Router │ ▼                      Network:
+ 192.168.10.0       ┌──────────────┤  4331  ├───────────────────┐   192.168.20.0
+                    │      Gig0/0/0└────────┘Gig0/0/1           │
+                    │                                           │
+                    │                                           │
+                ┌───┴──┐                                        │
+                │Switch│ 192.168.10.254                      ┌──┴─┐
+      ┌─────────┤ 2960 │ 255.255.255.0                       │ PC │
+      │         └──────┘                                     └────┘
+   ┌──┴─┐                                                  192.168.20.10
+   │ PC │                                                  255.255.255.0
+   └────┘
+192.168.10.10
+255.255.255.0
+
+
+! Router basic configuration:
+
+Would you like to enter the initial configuration dialog? [yes/no]: 
+!! always respond: no
+
+
+enable
+
+conf t
+
+interface gig0/0/0
+ip address 192.168.10.1 255.255.255.0
+no shutdown 
+exit
+
+interface gig0/0/1
+! modo de subconfig "gig0/0/1"
+ip address 192.168.20.1 255.255.255.0
+! este es el numero de identificacion de la interfaz. como el numero de telefono
+no shutdown 
+exit
+
+

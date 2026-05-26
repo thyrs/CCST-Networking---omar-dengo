@@ -1,0 +1,115 @@
+Desktop > terminal > CLI                
+                ┌───┴──┐               
+          fa0/1 │Switch│ 192.168.10.254
+      ┌─────────┤ 2960 │ 255.255.255.0 
+      │         └──────┘               
+   ┌──┴─┐                              
+   │ PC │                              
+   └────┘
+192.168.10.10
+255.255.255.0
+
+
+Switch> 
+! Este es el "user" mode 
+
+enable 
+! acceso al "Privileged mode"
+conf t 
+! acceso al "configure terminal mode", "global configuration mode" 
+hostname mySwitch
+! cambiar nombre del device, nombre: mySwitch
+enable password enablepass
+! me va a pedir el password cada vez que entre al device: enablepass
+no enable password
+! para quitar comandos ponga un "no" adelante
+enable secret secretpass
+! encripta el password que pide al principio 
+! crack type 5 https://www.ifm.net.nz/cookbooks/cisco-ios-enable-secret-password-cracker.html
+service password-encryption 
+! me encrypta todos los passwords que estan en plaintext
+! crack type 7 passwords: https://www.firewall.cx/cisco-technical-knowledgebase/cisco-routers/358-cisco-type7-password-crack.html
+
+line console 0
+    password consolepass
+    ! password para ingresar usando cable de consola
+    login
+    ! activa o pide el password para logiarse
+    exit
+
+line vty 0 15
+    ! "virtual Teletype": lineas de accesso virtuales/remotas (SSH,TELNET)
+    password vtypass
+    ! password para conectiones remotas
+    login
+    ! activa o pide el password para logiarse
+    exit
+
+banner motd * Welcome, no entrar sin permiso *
+! Message of the Day, LINE  c banner-text c, where 'c' is a delimiting character
+
+interface vlan 1
+  ip address 192.168.10.254 255.255.255.0
+  ! numero de identificaion del device en la red, como numero de telefono
+  no shutdown 
+  ! importante!!! prender la interfaz para poder acceptar conecciones
+  exit
+
+ip default-gateway 192.168.10.1
+! le digo cual es la salida a internet al device
+
+copy running-config startup-config 
+! press ENTER ( user PRIVILEGED mode command )
+! copiar la configuacion que esta corriendo a la configuracion de inicio del device
+
+write 
+! user privileged mode command
+! Salvar la configuracion
+
+erase startup-config
+! user privileged mode command
+! Borrar la configuracion
+
+
+show running-config
+!user privileged mode command
+! muestra configuracion actual del device
+
+
+
+!! TELNET *********************(remote access from the PC CMD)
+
+telnet 192.168.10.254
+! from the PC > Desktop> Command Prompt, use this for remote access using telnet(insecure)
+
+
+
+!! Keystrokes **************************************
+
+ctrl+shit+6 
+!  quit, cancell
+!
+ctrl+C
+!  exit
+
+ctrl+Z
+!  end
+
+
+!! Bonus **************************************
+
+
+terminal history size 254
+!user privileged mode command
+! me guarda 254 lineas en el historial
+
+show history 
+!user privileged mode command
+! me muestra los comandos ingresados
+
+do show history 
+! global configuation mode command
+! me muestra los comandos ingresados en "global configuation"
+
+
+

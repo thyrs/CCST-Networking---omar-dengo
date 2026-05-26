@@ -1,0 +1,46 @@
+!! this configuration works both for router and Switch, 
+!! for switches a "interface Vlan 1" needs to be configured
+
+! SSH  (Secure Shell)
+
+enable
+
+conf t
+
+! 1 step:
+hostname myDevice
+! 2 step:
+enable password enablepass
+! 3 step:
+ip domain-name mydomain.com
+! identifica a la empresa duen'a del dispositivo
+! 4 step:
+crypto key generate rsa
+1024
+! llave de encriptacion de 1024 bit, entre mas grande mas dificil de romper
+! 5 step:
+
+username esteban password estebanpass
+! create user and password to login
+username esteban2 secret esteban2pass
+! create user and encrypted password to login
+
+! 6 step:  
+line vty 0 15
+    transport input ssh
+    ! que solo acepte conecciones de SSH 
+    login local 
+    ! para que el device pida user and password de la base de datos local
+    exit
+
+
+!!! DESDE PC Rosada:
+! desktop > command prompt >
+
+ssh -l esteban 192.168.20.1
+! l de login.
+! remote access using SSH (secure)
+
+
+
+
