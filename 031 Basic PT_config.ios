@@ -1,5 +1,4 @@
-!? 150 Basic Packet Tracer configs:
-
+# Basic Packet Tracer configs:
 
 ! esto es un comentario > ctrl + /
 solo funciona si tengo VScode desktop y la extencion better comments by Aaron Bond
@@ -8,24 +7,24 @@ solo funciona si tengo VScode desktop y la extencion better comments by Aaron Bo
 !* verde claro
 !todo naranja
 
-
 ! use Alt + Z para ver contenido correctamente(View > Word Wrap):
-!! how to change FONTS in packet tracer:
+
+> how to change FONTS in packet tracer:
 ! options > preferences > Font >
 ! Size: otros textos en general
 ! CLI: es para la terminal/console
 
-!! how to connect with CONSOLE cable (out-of-band access method):
+> how to connect with CONSOLE cable (out-of-band access method):
 ! > Connections > click Console cable > in the PC conect it to the RS-232 port > and on the Network device conect it the "console port"
 
-!! how to open cisco's CLI/TERMINAL/console(packet tracer):
+> how to open cisco's CLI/TERMINAL/console(packet tracer):
 ! > open PC > Desktop > Terminal > OK > press ENTER key
 
-!! how to set up IP ADDRESS in PC (End devices)
+> how to set up IP ADDRESS in PC (End devices)
 ! open PC > Desktop > ip configuration > configure:
         !* ipv4 ADDRESS
         !* submask
         !* default gateway
 
-!! how to see INTERFACE name in packet tracer:
+> how to see INTERFACE name in packet tracer:
 ! Options > preferences > interface > check "always show port label in logical workspace"
