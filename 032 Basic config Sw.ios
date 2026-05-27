@@ -60,7 +60,7 @@ ip default-gateway 192.168.10.1
 
 copy running-config startup-config 
 ! press ENTER ( user PRIVILEGED mode command )
-! copiar la configuacion que esta corriendo a la configuracion de inicio del device
+! copiar la configuacion que esta corriendo (RAM) a la configuracion de inicio del device (NVRAM)
 
 write 
 ! user privileged mode command
@@ -77,14 +77,15 @@ show running-config
 
 
 
-!! TELNET *********************(remote access from the PC CMD)
+TELNET *********************
+! remote access from the PC CMD:
 
 telnet 192.168.10.254
 ! from the PC > Desktop> Command Prompt, use this for remote access using telnet(insecure)
 
 
 
-!! Keystrokes **************************************
+Keystrokes **************************************
 
 ctrl+shit+6 
 !  quit, cancell
@@ -96,7 +97,7 @@ ctrl+Z
 !  end
 
 
-!! Bonus **************************************
+Bonus **************************************
 
 
 terminal history size 254
