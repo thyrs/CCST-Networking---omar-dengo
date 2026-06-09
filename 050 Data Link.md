@@ -105,9 +105,8 @@ The world's most popular network protocol analyzer
 
 
 # 21.3.4 Multicast MAC Address
-There is a destination MAC address of 01-00-5E when the encapsulated data is an IPv4 multicast packet and a destination MAC address of 33-33 when the encapsulated data is an IPv6 multicast packet.
-
-The range of IPv4 multicast addresses is __224.0.0.0__ to 239.255.255.255. The range of IPv6 multicast addresses begins with ff00::/8.
+- There is a destination MAC address of 01-00-5E when the encapsulated data is an IPv4 multicast packet and a destination MAC address of 33-33 when the encapsulated data is an IPv6 multicast packet.
+- The range of IPv4 multicast addresses is __224.0.0.0__ to 239.255.255.255. The range of IPv6 multicast addresses begins with ff00::/8.
 
 ![Alt text](059image-4.png)
 
