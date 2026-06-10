@@ -25,7 +25,7 @@ arp -a
 
 
 1. Flooding
-! When the swith doesnt know the destination MAC-address, it floods all the interfaces !!with exeption of the incomming interface
+! When the swith doesnt know the destination MAC-address, it floods all the active interfaces !!with exeption of the incomming interface
 
 2. MAC-address learning
 ! switch learns by ingress mac-address
@@ -33,6 +33,7 @@ arp -a
 3. show mac-address-table 
 ! cisco ios privilaged mode command!!
 ! Switch saves the information on the "mac-address-table" 
+! mac-address-table info is: volatile, RAM (temporal 5mins)
 
 4. 
 

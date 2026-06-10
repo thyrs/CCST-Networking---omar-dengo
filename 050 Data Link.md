@@ -22,8 +22,9 @@
 | * Half Duplex vs Full Duplex                        | 1.3.2 Logical network topologies       |
 | * CSMA/CD  vs CSMA/CA                               |                                        |
 
-> * Physical and logical topologies
+> * Physical and logical topologies (31.1.1 Physical and Logical Topologies)
 > * Topologies types
+
 
 
 ## Full-duplex communication (Autopista multi carril)
