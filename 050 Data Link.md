@@ -48,7 +48,7 @@ Packet tracer
 
 ## Ethernet Standards in the MAC Sublayer
 
-![Alt text](059image.png)
+![Alt text](./images/059image.png)
 
 Recall that LLC and MAC have the following roles in the data link layer:
 
@@ -60,7 +60,7 @@ This sublayer (IEEE 802.3, __802.11__, or 802.15 for example) is implemented in 
 
 ## Ethernet Frame Fields
 
-![Alt text](059image-1.png)
+![Alt text](./images/059image-1.png)
 
 ### Preamble and Start Frame Delimiter Fields 
 The Preamble (7 bytes) and Start Frame Delimiter (__SFD__), also called the Start of Frame (1 byte), fields are used for synchronization between the sending and receiving devices. These first eight bytes of the frame are used to get the attention of the receiving nodes. __Essentially, the first few bytes tell the receivers to get ready to receive a new frame.__ 
@@ -102,18 +102,18 @@ The world's most popular network protocol analyzer
 
 # Unicast MAC Address
 
-![Alt text](059image-2.png)
+![Alt text](./images/059image-2.png)
 
 
 # 21.3.4 Multicast MAC Address
 - There is a destination MAC address of 01-00-5E when the encapsulated data is an IPv4 multicast packet and a destination MAC address of 33-33 when the encapsulated data is an IPv6 multicast packet.
 - The range of IPv4 multicast addresses is __224.0.0.0__ to 239.255.255.255. The range of IPv6 multicast addresses begins with ff00::/8.
 
-![Alt text](059image-4.png)
+![Alt text](./images/059image-4.png)
 
 
 ## 21.3.3 Broadcast MAC Address
-![Alt text](059image-3.png)
+![Alt text](./images/059image-3.png)
 
 
 

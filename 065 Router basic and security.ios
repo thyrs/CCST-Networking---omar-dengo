@@ -1,0 +1,78 @@
+!                           10.10.10.0/24
+!                                 ▼  
+!                    .1┌──┐ .1           .2┌──┐.1
+!                 ┌────┤R1├────────────────┤R2├────┐
+!                 │f0/1└──┘f0/0        f0/0└──┘f0/1│
+!  192.168.1.0/24 |                                │  172.16.1.0/24
+!                 │                                │
+!                ┌┴──┐.254                      ┌──┴┐ .254
+!          ┌─────┤SW1├────┐                   ┌─┤SW2├──────┐
+!          │     └───┘    │                   │ └───┘      │
+!          │              │                   │            │
+!        ┌─┴──┐       ┌───┴┐               ┌──┴─┐       ┌──┴─┐
+!        │PC-A│       │PC-B│               │PC-C│       │PC-D│
+!        └────┘       └────┘               └────┘       └────┘
+!          .10          .11                  .10          .11
+
+! use ROUTERS 2811 !!
+
+show ip interface brief
+
+!Router1
+
+interface G0/1
+  ip address 192.168.1.1 255.255.255.0
+  no shutdown 
+  exit
+
+interface G0/0
+  ip address 10.10.10.1 255.255.255.0
+  no shutdown 
+  exit
+
+ip route 0.0.0.0 0.0.0.0 G0/0
+! "default route" for router
+
+
+!Router2
+
+interface fa0/1
+  ip address 172.16.1.1 255.255.255.0
+  no shutdown 
+  exit
+
+interface fa0/0
+  ip address 10.10.10.2 255.255.255.0
+  no shutdown 
+  exit
+
+ip route 0.0.0.0 0.0.0.0 fa0/0
+! "default route" for router
+
+
+
+
+!  **** SECURITY COMmANDS ***
+
+enable passsword enablepass 
+! >>> plain text
+
+Enable secret enablepass123
+! >>  type 5 https://www.ifm.net.nz/cookbooks/cisco-ios-enable-secret-password-cracker.html
+
+service password encryption 
+! encrypts all passwords [ type 7 (weak)] https://www.firewall.cx/cisco-technical-knowledgebase/cisco-routers/358-cisco-type7-password-crack.html
+
+security passwords min-length 
+!Set a minimum acceptable password length (routers)
+
+login block-for 180 attempts 4 within 120
+!Deter brute-force password guessing attacks 
+!Block anyone for three minutes who fails to log in after four attempts within a two-minute period.
+
+
+line vty 0 15
+  exec-timeout 2
+  exit
+!Disable an inactive privileged EXEC mode access after a specified amount of time 
+

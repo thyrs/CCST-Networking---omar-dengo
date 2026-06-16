@@ -74,7 +74,7 @@ Switch(config-if)# end
 ```
 
 <!-- use Alt + Z para ver tabla correctamente:(View > Word Wrap) -->
-![alt text](T568A_and_T568B_Standards.png)
+![alt text](./images/049_T568A_and_T568B_Standards.png)
 | Cable Type       | Standard                           | Application                                            |
 | ---------------- | ---------------------------------- | ------------------------------------------------------ |
 | Straight-through | Both ends T568A or both ends T568B | Connects a End device to a network intermediary device |
@@ -85,9 +85,9 @@ Switch(config-if)# end
 ## Fiber-optic cables are broadly classified into two types:
 
 * Single-mode fiber (SMF)
-![alt text](SMF.png)
+![alt text](./images/049_SMF.png)
 * Multimode fiber (MMF)
-![alt text](MMF.png)
+![alt text](./images/049_MMF.png)
 
 
 # Number Systems

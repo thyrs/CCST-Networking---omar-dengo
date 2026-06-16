@@ -1,0 +1,36 @@
+!! Router1
+
+interface fa1/0 
+  no shutdown 
+  ip address 192.168.20.1 255.255.255.0
+  exit
+interface fa0/0
+  no shutdown 
+  ip address 10.0.0.1 255.255.255.0
+  exit
+interface fa0/1
+  ip address 192.168.10.1 255.255.255.0
+  no shutdown 
+  exit
+ip route 0.0.0.0 0.0.0.0 fa0/0
+
+
+
+!! Router2
+
+interface fa0/1
+  no shutdown 
+  ip address 172.16.10.1 255.255.255.0
+  exit
+interface fa1/0
+  no shutdown 
+  ip address 172.16.20.1 255.255.255.0
+  exit
+interface fa0/0
+  ip address 10.0.0.2 255.255.255.0
+  no shutdown 
+  exit
+interface fa1/1
+  no shutdown 
+  ip address 31.13.67.252 255.255.255.0
+ip route 0.0.0.0 0.0.0.0 fa1/1

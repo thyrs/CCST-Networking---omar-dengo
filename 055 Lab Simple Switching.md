@@ -10,7 +10,8 @@
 !└───┘ └───┘ └───┘ └───┘
 ```
 
-create a lab in packet tracer with the topology above, and practice the following:
+> create a lab in packet tracer with the topology above, and practice the following:
+- use cisco Switches 2960 (recommended)
 - assigning IP addresses to the PCs (192.168.10.11, 192.168.10.12, 192.168.10.13, 192.168.10.14...)
 - pinging between the PCs
 - viewing the MAC address table of the switch
