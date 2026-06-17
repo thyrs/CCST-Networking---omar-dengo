@@ -20,17 +20,17 @@ show ip interface brief
 
 !Router1
 
-interface G0/1
+interface fa0/1
   ip address 192.168.1.1 255.255.255.0
   no shutdown 
   exit
 
-interface G0/0
+interface fa0/0
   ip address 10.10.10.1 255.255.255.0
   no shutdown 
   exit
 
-ip route 0.0.0.0 0.0.0.0 G0/0
+ip route 0.0.0.0 0.0.0.0 fa0/0
 ! "default route" for router
 
 

@@ -1,8 +1,10 @@
-### Week 6
+
+# Week 6 Routing Concepts.md
 - Module 22: Network Layer 
 - Module 12: Gateways to Other Networks                                              
 - Module 14: Routing Between Networks                                              
 - Module 32: Routing at the Network Layer
+> Checkpoint Exam: Physical, Data Link, and Network Layers
 
 
 
