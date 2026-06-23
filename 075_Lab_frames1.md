@@ -1,4 +1,4 @@
-![Alt text](179image.png)
+![Alt text](./images/079image.png)
 
 # PART I
 
@@ -11,10 +11,10 @@
 
 Please mark the option that contains the appropriate L2 addresses that will complete the frame above 
 
-[ ] A.	Destination 0090.214d.3e01 source 00d0.5859.2301
-[ ] B.	Source 000a.41ab.0d01 Destination 00d0.5859.2302
-[ ] C.	Destination 000a.41ab.0d01 Source 00d0.5859.2302
-[ ] D.	Source 00d0.5859.2301 Destination 0040.0b86.6d01
+- [ ] A. Destination 0090.214d.3e01 source 00d0.5859.2301
+- [ ] B. Source 000a.41ab.0d01 Destination 00d0.5859.2302
+- [ ] C. Destination 000a.41ab.0d01 Source 00d0.5859.2302
+- [ ] D. Source 00d0.5859.2301 Destination 0040.0b86.6d01
 
 2. We captured this frame:
 
@@ -24,10 +24,10 @@ Please mark the option that contains the appropriate L2 addresses that will comp
 
 
 Complete the IP addresses of the frame above
-[ ] A.	Source 192.168.0.65 destination 192.168.0.2 
-[ ] B.	Source 192.168.0.2 destination 192.168.0.67
-[ ] C.	Source 192.168.0.67 destination 192.168.0.8
-[ ] D.	Source 192.168.0.82 destination 192.168.0.67
+- [ ] A. Source 192.168.0.65 destination 192.168.0.2 
+- [ ] B. Source 192.168.0.2 destination 192.168.0.67
+- [ ] C. Source 192.168.0.67 destination 192.168.0.8
+- [ ] D. Source 192.168.0.82 destination 192.168.0.67
 
 # PART II
 
