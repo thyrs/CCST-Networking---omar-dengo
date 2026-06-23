@@ -168,18 +168,18 @@ netstat -r
 ### 2. Remote Networks: 
 - Static routes:
 
-```ios
+```sh
 ip route 192.168.10.0 255.255.255.0 fa0/0
-! find netowork "192.168.10.0/24" through fa0/0
+# find netowork "192.168.10.0/24" through fa0/0
 ```
 
 - Dynamic routing protocols (OSPF)
 
 ### 3. Default Route(last option): 
 
-```ios
+```sh
 ip route 0.0.0.0 0.0.0.0 fa0/0
-! all traffic you dont have specific entries sent it to "fa0/0"
+# all traffic you dont have specific entries sent it to "fa0/0"
 ```
 
 
@@ -205,4 +205,4 @@ show ip route
 # Router will use route with smallest subnet mask 
 
 
-## 239 LAB routing
+## 066 LAB routing

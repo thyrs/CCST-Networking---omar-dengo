@@ -37,24 +37,18 @@
 ```sh
 ping 8.8.8.8
 # test reachability to "8.8.8.8" 
-
 ping dns.google
 # test reachability to "dns.google" 
 
 ipconfig
 # check PC's ip configuration (Windows OS)
-ifconfig
-# check PC's ip configuration (Linux OS)
+
 
 tracert 8.8.8.8
 # test reachability to "8.8.8.8" (Windows OS)
 tracert dns.google
 # test reachability to "dns.google" (Windows OS)
 
-traceroute 8.8.8.8
-# test reachability to "8.8.8.8" (Linux OS)
-traceroute dns.google
-# test reachability to "dns.google" (Linux OS)
 ```
 
 ### 3 Possible options:
