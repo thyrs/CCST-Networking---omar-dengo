@@ -1,5 +1,7 @@
 ![Alt text](./images/079image.png)
 
+- open the packet tracer "075_Lab_frames_1.pkt" and answer these questions:
+
 # PART I
 
 1. A packet going from Laptop0 to server0 was captured on R1
