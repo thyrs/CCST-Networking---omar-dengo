@@ -46,6 +46,8 @@ ipconfig
 
 tracert 8.8.8.8
 # test reachability to "8.8.8.8" (Windows OS)
+tracert 8.8.8.8
+# test reachability to "8.8.8.8" (Linux OS)
 tracert dns.google
 # test reachability to "dns.google" (Windows OS)
 
