@@ -64,10 +64,10 @@
 192.168.2.38/24
 255.255.255.0
 
-Network address > 192.168.2.0
-Broadcast Address > 192.168.2.255
-First usable host > 192.168.2.1 (usually Default-gateway)
-Last usable host > 192.168.2.254 (usually the SVI (Switch virtual interface))
+* Network address > 192.168.2.0
+* Broadcast Address > 192.168.2.255
+* First usable host > 192.168.2.1 (usually Default-gateway)
+* Last usable host > 192.168.2.254 (usually the SVI (Switch virtual interface))
 
 
 # Routers Segment Broadcast Domains

@@ -25,6 +25,7 @@ Steps:
     * 2 ^ "numer_of_host_bits" -2 (2nd,3rd octect)
 
 * 192.66.101.0/24
+
 |              |     |
 | ------------ | --- |
 | NETID        |     |
@@ -91,28 +92,24 @@ Steps:
 5. total usable host = "magic number" - 2 (on the 4th octect)
     * 2 ^ "numer_of_host_bits" -2 (2nd,3rd octect)
 
-172.16.0.0 - 172.16.63.255
-**172.16.64.0 - 172.16.127.255**
-172.16.128.0 - 172.16.191.255
-172.16.192.0 - 172.16.255.255
-XX.256
 
-4-	This IP 172.16.100.35/18 belongs to which of the following networks (NETID)
 
-[ ] a. 172.16.100.0
-[x] b. 172.16.64.0
-[ ] c. 172.16.90.0
-[ ] d. 172.16.69.0
-[ ] e. 172.16.96.0
+###	This IP 172.16.100.35/18 belongs to which of the following networks (NETID)
 
-|              |                |
-| ------------ | -------------- |
-| NETID        | 172.16.64.0    |
-| subnet mask  | 255.255.192.0  |
-| broadcast    | 172.16.127.255 |
-| 1st usable   | 172.16.64.1    |
-| Last usable  | 172.16.127.254 |
-| total usable | 16,382         |
+- [ ] a. 172.16.100.0
+- [ ] b. 172.16.64.0
+- [ ] c. 172.16.90.0
+- [ ] d. 172.16.69.0
+- [ ] e. 172.16.96.0
+
+|              |     |
+| ------------ | --- |
+| NETID        |     |
+| subnet mask  |     |
+| broadcast    |     |
+| 1st usable   |     |
+| Last usable  |     |
+| total usable |     |
 
 
 
