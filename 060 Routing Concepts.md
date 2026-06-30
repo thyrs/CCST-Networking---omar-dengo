@@ -110,7 +110,7 @@ The fields in the IPv6 packet header include the following:
 * 127.0.0.0/8 
 * 127.0.0.0 to 127.255.255.254
 
-### Link local address
+### Link local address (APIPA) 
 * 169.254.0.0/16
 * 169.254.0.1 to 169.254.254.255.254
 
