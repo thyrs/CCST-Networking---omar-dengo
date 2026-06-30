@@ -14,7 +14,6 @@ __IP calculator__:
 | 127 |  63 |  31 |  15 |   7 |   3 |   1 |   0 |        Wildcard |
 ```
 
-
 Steps:
 
 * identificar el "magic number" (Saltos)

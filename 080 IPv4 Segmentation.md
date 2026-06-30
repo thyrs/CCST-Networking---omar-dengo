@@ -6,7 +6,7 @@
 
 
 
-| __IPv4 Segmentation__                      |                                                   |
+| __IPv4 Segmentation__                       |                                                   |
 | ------------------------------------------- | ------------------------------------------------- |
 | **Module 08**: The Internet Protocol        | 2.2.4                                             |
 | * Octets and Dotted-Decimal Notation        | 2.2.5                                             |
