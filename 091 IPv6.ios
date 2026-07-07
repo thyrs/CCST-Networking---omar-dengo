@@ -1,0 +1,27 @@
+!               Basic ipv6 config
+
+
+
+
+ipv6 unicast-routing
+! Activar ipv6 globalmente en el device
+!
+!
+interface g0/0/0
+    ipv6 enable
+    !enables ipv6 in the interface
+    ipv6 address 2001:db8:1234:acad::1/64
+    ! este seria el GUA (Global Unicast address) routable desde el internet
+    ipv6 address fe80::1 link-local
+    ! este es LLA (link-local address), 
+    ! solo para connecciones en el mismo "link", 
+    ! se usa como DG en los host
+    no shutdown
+    exit
+!! An ipv6 interface can have multiple ipv6 addresses, remove the ones you dont need
+!
+show ipv6 interface brief
+!
+
+fe80::1
+
