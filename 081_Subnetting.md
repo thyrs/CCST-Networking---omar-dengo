@@ -22,9 +22,15 @@ Steps:
 3. Hacer los saltos empezando desde el "0" en el octeto correspondiente
 4. identificar a que network pertenece el ip address que me dieron y llenar el resto de lo que me piden
 5. total usable host = "magic number" - 2 (on the 4th octect)
-    * 2 ^ "numer_of_host_bits" -2 (2nd,3rd octect)
+    * (2 ^ "number_of_host_bits") -2 (2nd,3rd octect)
+
+/8
+/16
+/24
+
 
 * 192.66.101.0/24
+
 
 |              |     |
 | ------------ | --- |
@@ -73,8 +79,10 @@ Steps:
 | total usable |     |
 
 
-### 3er octet
 
+
+
+### 3er octet
 
 |     |     |     |     |     |     |     |     |                 |
 | --: | --: | --: | --: | --: | --: | --: | --: | --------------: |
@@ -82,16 +90,6 @@ Steps:
 | /17 | /18 | /19 | /20 | /21 | /22 | /23 | /24 | Bits encendidos |
 | 128 | 192 | 224 | 240 | 248 | 252 | 254 | 255 |            Mask |
 | 127 |  63 |  31 |  15 |   7 |   3 |   1 |   0 |        Wildcard |
-
-172.16.100.35/18
-
-1. magic number (Saltos) = __64__
-2. identificar el mask = __255.255.192.0__
-3. Hacer los saltos empezando desde el "0" en el octeto correspondiente
-4. identificar a que network pertenece el ip address que me dieron y llenar el resto de lo que me piden
-5. total usable host = "magic number" - 2 (on the 4th octect)
-    * 2 ^ "numer_of_host_bits" -2 (2nd,3rd octect)
-
 
 
 ###	This IP 172.16.100.35/18 belongs to which of the following networks (NETID)
@@ -101,17 +99,6 @@ Steps:
 - [ ] c. 172.16.90.0
 - [ ] d. 172.16.69.0
 - [ ] e. 172.16.96.0
-
-|              |     |
-| ------------ | --- |
-| NETID        |     |
-| subnet mask  |     |
-| broadcast    |     |
-| 1st usable   |     |
-| Last usable  |     |
-| total usable |     |
-
-
 
 
 ### 2do octet
