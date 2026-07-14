@@ -5,5 +5,6 @@
 
 > Checkpoint Exam: Build a Small Network
 > Checkpoint Exam: The Internet Protocol
+> Checkpoint Exam: ARP, DNS, DHCP and the Transport Layer
 
 
