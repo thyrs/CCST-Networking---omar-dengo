@@ -38,23 +38,23 @@
 * 49152 - 65535 Private Dynamic ports
 
 
-| #   | Short Name   | TCP/UDP | Full Name                                 |
-| --- | ------------ | ------- | ----------------------------------------- |
-| 20  | FTP -data    | TCP     | File Transfer Protocol (secure)           |
-| 21  | FTP -control | TCP     | File Transfer Protocol (secure)           |
-| 22  | SSH          | TCP     | Secure Shell Protocol (remote connection) |
-| 22  | SFTP         | TCP     | SSH File Transfer Protocol (secure)       |
-| 23  | TELNET       | TCP     | TELNET (remote connection)                |
-| 25  | SMTP         | TCP     | Simple Mail Transfer Protocol (EMAIL)     |
-| 53  | DNS          | UDP     | Domain Name System (PAGINAS)              |
-| 67  | DHCP -client | UDP     | Dynamic Host Configuration Protocol       |
-| 68  | DHCP -server | UDP     | Dynamic Host Configuration Protocol       |
-| 69  | TFTP         | UDP     | Trivial File Transfer Protocol (unsecure) |
-| 80  | HTTP         | TCP     | Hypertext Transfer Protocol (WEB SERVER)  |
-| 110 | POP3         | TCP     | Post Office Protocol v3 (EMAIL)           |
-| 143 | IMAP         | TCP     | Internet Message Access Protocol          |
-| 161 | SNMP         | UDP     | Simple Network Management Protocol        |
-| 443 | HTTPS        | TCP     | Hypertext Transfer Protocol Secure        |
+| #       | Short Name   | TCP/UDP | Full Name                                 |
+| ------- | ------------ | ------- | ----------------------------------------- |
+| 20      | FTP -data    | TCP     | File Transfer Protocol (secure)           |
+| 21      | FTP -control | TCP     | File Transfer Protocol (secure)           |
+| **22**  | SSH          | TCP     | Secure Shell Protocol (remote connection) |
+| 22      | SFTP         | TCP     | SSH File Transfer Protocol (secure)       |
+| **23**  | TELNET       | TCP     | TELNET (remote connection)                |
+| 25      | SMTP         | TCP     | Simple Mail Transfer Protocol (EMAIL)     |
+| **53**  | DNS          | UDP     | Domain Name System (PAGINAS)              |
+| 67      | DHCP -client | UDP     | Dynamic Host Configuration Protocol       |
+| 68      | DHCP -server | UDP     | Dynamic Host Configuration Protocol       |
+| 69      | TFTP         | UDP     | Trivial File Transfer Protocol (unsecure) |
+| **80**  | HTTP         | TCP     | Hypertext Transfer Protocol (WEB SERVER)  |
+| 110     | POP3         | TCP     | Post Office Protocol v3 (EMAIL)           |
+| 143     | IMAP         | TCP     | Internet Message Access Protocol          |
+| 161     | SNMP         | UDP     | Simple Network Management Protocol        |
+| **443** | HTTPS        | TCP     | Hypertext Transfer Protocol Secure        |
 
 # 15.2.3 Socket Pairs
 
