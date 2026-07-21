@@ -11,10 +11,10 @@ properly complete the frame below:
 | 000B.BE5B.3CE8   | 0030.F2DE.7706     | -                 | -               | 51029 | 23   |      |
 
  
-[ ] A. Source IP 172.29.100.100 & Destination IP 172.29.100.10
-[ ] B. Destination IP 172.29.100.8 & Source IP 172.29.100.100
-[ ] C. Source IP 172.29.100.10 & Destination IP 172.29.100.100
-[ ] D. Destination IP 172.29.100.100 & Source IP 172.29.100.10
+- [ ] A. Source IP 172.29.100.100 & Destination IP 172.29.100.10
+- [ ] B. Destination IP 172.29.100.8 & Source IP 172.29.100.100
+- [ ] C. Source IP 172.29.100.10 & Destination IP 172.29.100.100
+- [ ] D. Destination IP 172.29.100.100 & Source IP 172.29.100.10
 
 2.	A frame going from pc0 going to laptop2 was captured: 
 
@@ -24,10 +24,10 @@ properly complete the frame below:
 
 Please select the layer 2 addresses that will properly complete the frame.
 
-[ ] A.	Source MAC 0001.c743.7402 & Destination MAC 000a.f39e.3b01
-[ ] B.	Destination MAC 000a.f39e.3b01 & Source MAC 0001.c743.7402
-[ ] C.	Source MAC 000a.f39e.3b01 & Destination MAC 0001.c743.7402
-[ ] D.	Destination MAC 0001.c743.7402 & Source MAC 000a.f39e.3b01
+- [ ] A.	Source MAC 0001.c743.7402 & Destination MAC 000a.f39e.3b01
+- [ ] B.	Destination MAC 000a.f39e.3b01 & Source MAC 0001.c743.7402
+- [ ] C.	Source MAC 000a.f39e.3b01 & Destination MAC 0001.c743.7402
+- [ ] D.	Destination MAC 0001.c743.7402 & Source MAC 000a.f39e.3b01
         
 3.	A frame captured contained the following information:
 
@@ -37,10 +37,10 @@ Please select the layer 2 addresses that will properly complete the frame.
 
 Based on this information, which Layer 3 addressing option will properly complete the frame?
 
-[ ] A.	Source IP 172.29.100.100 & Destination IP 172.30.100.200
-[ ] B.	Source IP 172.30.100.100 & Destination IP 172.29.100.254
-[ ] C.	Source IP 172.30.100.100 & Destination IP 172.30.54.10
-[ ] D.	Source IP 172.30.100.200 & Destination IP 172.29.100.100
+- [ ] A.	Source IP 172.29.100.100 & Destination IP 172.30.100.200
+- [ ] B.	Source IP 172.30.100.100 & Destination IP 172.29.100.254
+- [ ] C.	Source IP 172.30.100.100 & Destination IP 172.30.54.10
+- [ ] D.	Source IP 172.30.100.200 & Destination IP 172.29.100.100
 
 ## Topology 2
 
@@ -52,10 +52,10 @@ information will properly complete the frame below:
 | 00D0.589C.1903   | 00D0.9764.6801     | -          | -          | 61000 | 80   |      |
 
 Which Layer 3 addressing option will properly complete the frame
-[ ] A.	Source IP 172.26.27.10 & Destination IP 10.15.26.250
-[ ] B.	Source IP 172.26.27.10 & Destination IP 10.15.26.200
-[ ] C.	Source IP 172.27.26.10 & Destination IP 10.15.26.250
-[ ] D.	Source IP 10.15.26.250 & Destination IP 172.27.26.10 -->
+- [ ] A.	Source IP 172.26.27.10 & Destination IP 10.15.26.250
+- [ ] B.	Source IP 172.26.27.10 & Destination IP 10.15.26.200
+- [ ] C.	Source IP 172.27.26.10 & Destination IP 10.15.26.250
+- [ ] D.	Source IP 10.15.26.250 & Destination IP 172.27.26.10 -->
 
 5)	A frame captured contained the following information:
 
@@ -65,10 +65,10 @@ Which Layer 3 addressing option will properly complete the frame
 
 Based on this information which Layer 2/layer 3 addressing option will properly complete the frame:
 
-[ ] A.	Destination MAC 00D0.5894.7AC3 & Source IP 192.168.10.151 
-[ ] B.	Source MAC 0001.C75D.A0A3 & Source IP 192.168.10.1 
-[ ] C.	Destination MAC 0001.C75D.A0A3 & Destination IP 192.168.10.151
-[ ] D.	Source MAC 00D0.5894.7AC3 & Source IP 192.168.10.151
+- [ ] A.	Destination MAC 00D0.5894.7AC3 & Source IP 192.168.10.151 
+- [ ] B.	Source MAC 0001.C75D.A0A3 & Source IP 192.168.10.1 
+- [ ] C.	Destination MAC 0001.C75D.A0A3 & Destination IP 192.168.10.151
+- [ ] D.	Source MAC 00D0.5894.7AC3 & Source IP 192.168.10.151
 
 6)	A frame was captured going from ITN.com to Cashier-2:
 
@@ -77,9 +77,9 @@ Based on this information which Layer 2/layer 3 addressing option will properly 
 | -                | -                  | 10.15.26.250      | 172.27.26.11    | 53   | 53441 |      |
 
 Please select the layer 2 addresses that will properly complete the fram 
-[ ] A.	Source MAC 00D0.589C.1902 & Destination MAC 0090.0CBC.C802
-[ ] B.	Destination MAC 00E0.F7D8.CD83 & Source MAC 00D0.589C.19 
-[ ] C.	Source MAC 0004.9A14.1D9D & Destination MAC 0001.4285.4B4B 
-[ ] D.	Destination MAC 0090.0CBC.C801 & Source MAC 00D0.589C.1902
+- [ ] A.	Source MAC 00D0.589C.1902 & Destination MAC 0090.0CBC.C802
+- [ ] B.	Destination MAC 00E0.F7D8.CD83 & Source MAC 00D0.589C.19 
+- [ ] C.	Source MAC 0004.9A14.1D9D & Destination MAC 0001.4285.4B4B 
+- [ ] D.	Destination MAC 0090.0CBC.C801 & Source MAC 00D0.589C.1902
 
 

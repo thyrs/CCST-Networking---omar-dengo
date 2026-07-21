@@ -208,7 +208,7 @@ When a problem is first discovered in the network, it is important to verify it 
 # 37.2.9 Network Baseline > Estudio, estadisticas del rendimiento y estado promedio de la Red
 
 # 37.2.10 Cisco Discovery Protocol (CDP) Overview
-
+```
 R1# show cdp neighbors
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
@@ -216,12 +216,12 @@ Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
   
 Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
 S1               Gig 0/0/1           179         S I      WS-C3560- Fas 0/5
-
+```
  <!-- 2do dia -->
 
 # 37.4 Troubleshoot Endpoint Connectivity
 
-* Windows Network Setup
+* **Windows Network Setup**
     > in Windows 10, you can access the IP address details from the Network and Sharing Center > interface > Details
 
 ipconfig 
@@ -230,12 +230,12 @@ ipconfig
 ipconfig /all
 <!-- used to view additional addressing details  -->
 
-* Linux Network Setup
+* **Linux Network Setup**
 
 ifconfig
 <!-- is used to display addresses and their properties. It can also be used to add or delete IP addresses. -->
 
-* MacOS Network Setup
+* **MacOS Network Setup**
     > In the GUI of a Mac host, open Network Preferences > Advanced to get the IP addressing information,
 
 ifconfig 
@@ -248,40 +248,40 @@ ifconfig
 ### 37.5.2 Packet Capture and Protocol Analysis (Wireshark)
 
 # Wireshark Comparison Operators:
-
-## Equals: == or "eq"
+```sh
+## Equals: == or "eq":
 ip.addr eq 192.168.1.1 
 ip.addr == 192.168.1.1 
 
-## And: && or "and"
+## And: && or "and":
 tcp.port == 22 && ip.addr == 192.168.1.1
 tcp.port == 22 and ip.addr == 192.168.1.1
 
-## Or: || (double pipe) or "or"
+## Or: || (double pipe) or "or":
 http.request || http.response
 http.request or http.response
 
 
-# Wireshark Filtering examples
+# Wireshark Filtering examples:
 
-* http.request
-    - Display all HTTP requests. 
+http.request
+# Display all HTTP requests. 
 
-* http.request || http.response
-    - Display all HTTP request and responses. 
+http.request || http.response
+# Display all HTTP request and responses. 
 
-* ip.addr == 127.0.0.1
-    - Display all IP packets whose source or destination is localhost. 
+ip.addr == 127.0.0.1
+# Display all IP packets whose source or destination is localhost. 
 
-* tcp.len < 100
-    - Display all TCP packets whose data length is less than 100 bytes. 
+tcp.len < 100
+# Display all TCP packets whose data length is less than 100 bytes. 
 
-* http.request.uri matches “(gif)$” 
-    - Display all HTTP requests in which the uri ends with “gif”. 
+http.request.uri matches “(gif)$” 
+# Display all HTTP requests in which the uri ends with “gif”. 
 
-* dns.query.name == “www.google.com” 
-    - Display all DNS queries for “www.google.com”.
-
+dns.query.name == “www.google.com” 
+# Display all DNS queries for “www.google.com”.
+```
 
 ### 37.5.5 Measuring Network Throughput
 
