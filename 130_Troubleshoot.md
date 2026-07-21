@@ -5,7 +5,7 @@
 > Checkpoint Exam: Cisco Devices and Troubleshooting Network Issues
 > Module 37: Module Exam
 
-| __16__                                             |                                                                                                                   |
+| __Troubleshooting and Network Support__            |                                                                                                                   |
 | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Module 36: Troubleshoot Common Network Problems    | 5.1.0 Demonstrate troubleshooting methodologies                                                                   |
 |                                                    | and help desk best practices, ticketing, documentation, and information gathering.                                |
