@@ -221,7 +221,7 @@ S1               Gig 0/0/1           179         S I      WS-C3560- Fas 0/5
 
 # 37.4 Troubleshoot Endpoint Connectivity
 
-* **Windows Network Setup**
+* **Windows Network Setup:**
     > in Windows 10, you can access the IP address details from the Network and Sharing Center > interface > Details
 
 ipconfig 
@@ -230,12 +230,12 @@ ipconfig
 ipconfig /all
 <!-- used to view additional addressing details  -->
 
-* **Linux Network Setup**
+* **Linux Network Setup:**
 
 ifconfig
 <!-- is used to display addresses and their properties. It can also be used to add or delete IP addresses. -->
 
-* **MacOS Network Setup**
+* **MacOS Network Setup:**
     > In the GUI of a Mac host, open Network Preferences > Advanced to get the IP addressing information,
 
 ifconfig 

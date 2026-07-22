@@ -5,7 +5,7 @@
 > Checkpoint Exam: Network Access
 
 
-| __App Layer__                              |             |
+| __App Layer__                                  |             |
 | ---------------------------------------------- | ----------- |
 | Module 16: Application Layer Services          | 1.5.2 FTP   |
 | * Client Server Relationship                   | 1.5.3 SFTP  |
@@ -30,23 +30,24 @@
 ![Alt text](./images/119image-1.png)
 
 
-| #   | Short Name   | TCP/UDP | Full Name                                 |
-| --- | ------------ | ------- | ----------------------------------------- |
-| 20  | FTP -data    | TCP     | File Transfer Protocol                    |
-| 21  | FTP -control | TCP     | File Transfer Protocol                    |
-| 22  | SSH          | TCP     | Secure Shell Protocol (remote connection) |
-| 22  | SCP          | TCP     | SSH Secure Copy Protocol (secure)         |
-| 23  | TELNET       | TCP     | TELNET (remote connection)                |
-| 25  | SMTP         | TCP     | Simple Mail Transfer Protocol             |
-| 53  | DNS          | UDP     | Domain Name System                        |
-| 67  | DHCP -client | UDP     | Dynamic Host Configuration Protocol       |
-| 68  | DHCP -server | UDP     | Dynamic Host Configuration Protocol       |
-| 69  | TFTP         | UDP     | Trivial File Transfer Protocol            |
-| 80  | HTTP         | TCP     | Hypertext Transfer Protocol(websites)     |
-| 110 | POP3         | TCP     | Post Office Protocol v3 (email)           |
-| 143 | IMAP         | TCP     | Internet __Message__ Access Protocol      |
-| 161 | SNMP         | UDP     | Simple __Network Management__ Protocol    |
-| 443 | HTTPS        | TCP     | Hypertext Transfer Protocol Secure        |
+| #   | Short Name      | TCP/UDP | Full Name                                    |
+| --- | --------------- | ------- | -------------------------------------------- |
+| 20  | *FTP* -data     | TCP     | File Transfer Protocol                       |
+| 21  | *FTP* -control  | TCP     | File Transfer Protocol                       |
+| 22  | *SFTP* -control | TCP     | Secure File Transfer Protocol                |
+| 22  | **SSH**         | TCP     | Secure Shell Protocol (remote connection)    |
+| 22  | **SCP**         | TCP     | SSH Secure Copy Protocol (secure)            |
+| 23  | TELNET          | TCP     | TELNET (remote connection)                   |
+| 25  | SMTP            | TCP     | Simple Mail Transfer Protocol                |
+| 53  | **DNS**         | UDP     | Domain Name System (paginas amarilla)        |
+| 67  | DHCP -client    | UDP     | Dynamic Host Configuration Protocol          |
+| 68  | DHCP -server    | UDP     | Dynamic Host Configuration Protocol          |
+| 69  | *TFTP*          | UDP     | Trivial File Transfer Protocol               |
+| 80  | HTTP            | TCP     | Hypertext Transfer Protocol(websites)        |
+| 110 | POP3            | TCP     | Post Office Protocol v3 (email)              |
+| 143 | IMAP            | TCP     | Internet __Message__ Access Protocol (email) |
+| 161 | **SNMP**        | UDP     | Simple __Network Management__ Protocol       |
+| 443 | HTTPS           | TCP     | Hypertext Transfer Protocol Secure           |
 
 # DHCP SERVER config 
 ```.txt

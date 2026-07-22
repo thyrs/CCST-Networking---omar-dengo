@@ -89,27 +89,27 @@ Chronogram
 > Checkpoint Exam: Protocols for Specific Tasks
 > Checkpoint Exam: ARP, DNS, DHCP and the Transport Layer
 
-### Week 11  
+### Week 11   - 21 julio
 - Module 7: The Access Layer              
 - Module 16: Application Layer Services                                                  
 - Module 25: IP Addressing Services
 > Checkpoint Exam: Network Access
 
-### Week 12  
+### Week 12   - 28 julio
 - Module 3: Wireless and Mobile Networks                                              
 - Module 4: Build a Home Network    
 - Module 11: Dynamic Addressing with DHCP
 > Checkpoint Exam: Build a Small Network
 > Checkpoint Exam: The Internet Protocol
 
-### Week 13  
+### Week 13   - 4 agosto
 - Module 36: Troubleshoot Common Network Problems                               
 - Module 37: Network Support           
 - Module 18: Network Design   
 > Checkpoint Exam: Cisco Devices and Troubleshooting Network Issues
 > Module 37: Module Exam
 
-### Week 14
+### Week 14 - 11 agosto
 - Module 19: Cloud and Virtualization  
 - Module 38: Cybersecurity Threats, Vulnerabilities, and Attacks                     
 - Module 39: Network Security
@@ -120,7 +120,12 @@ Chronogram
 - Final Online exam
 
 
-### Week 15
+### Week 15 - 18 ago
 - Final exam
-
-
+* libro abierto: notas, github...
+> - basic config, name the device, MOTD, 
+> - SSH config
+> - Routing 
+> - frames
+> - selecion unica
+> - respuesta breve

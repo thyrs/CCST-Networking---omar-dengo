@@ -26,9 +26,10 @@
    
 * Se pasa con 70% 
 
-• Con 3 ausencias injustificadas, podrian perder el curso.
-• Con 45 minutos de ausencia en la sesión de clase se considera ausente en esa
+* Con 3 ausencias injustificadas, podrian perder el curso.
+* Con 45 minutos de ausencia en la sesión de clase se considera ausente en esa
 sesión.
+* __Si tiene alguna situacion personal por favor comunicarlo cuanto antes para modificar la agenda en caso de que sea necesiario__
 <!--! * Si tiene alguna situacion personal por favor comunicarlo cuanto antes para modificar la agenda en caso de que sea necesiario -->
 
 ## 5 Presentarse
