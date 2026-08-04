@@ -1,10 +1,11 @@
 # 123_DHCPv6_theory
 
-# AOM flags (auto, other, managed)
+## AOM flags (auto, other, managed)
 
-| Automatic  | Other info   | with DHCPv6  |
-| ---------- | ------------ | ------------ |
-| ____0_____ | ______1_____ | ______0_____ |
+| Automatic | Other info | with DHCPv6 |
+| :-------: | :--------: | :---------: |
+|     0     |     1      |      0      |
+
 
 ```.ios
 interface fa0/0

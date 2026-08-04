@@ -4,15 +4,17 @@ Networking technology powers the Internet. Networks make it possible for us to u
 
 This Networking Essentials course prepares you for the entry-level Cisco Certified Support Technician (CCST) Network certification and entry-level roles such as Network Support Technician, Entry-level Help Desk Technician, or IT Support Specialist. You will learn how networks operate, including the devices, media, and protocols that enable network communication. Develop key skills so you can perform basic troubleshooting, using effective methodologies and help desk best practices.
 
+https://github.com/thyrs/CCST-Networking---omar-dengo
+
 ### Objectives
 By the end of the course, students will be able to:
-•	Configure switches and end devices to provide access to local and remote network resources.
-•	Explain how physical and data link layer protocols support the operation of Ethernet in a switched network.
-•	Configure routers to enable end-to-end connectivity between remote devices.
-•	Create IPv4 and IPv6 addressing schemes and verify network connectivity between devices.
-•	Explain how the upper layers of the OSI model support network applications.
-•	Use security best practices to configure a small network.
-•	Troubleshoot connectivity in a small network.
+* Configure switches and end devices to provide access to local and remote network resources.
+* Explain how physical and data link layer protocols support the operation of Ethernet in a switched network.
+* Configure routers to enable end-to-end connectivity between remote devices.
+* Create IPv4 and IPv6 addressing schemes and verify network connectivity between devices.
+* Explain how the upper layers of the OSI model support network applications.
+* Use security best practices to configure a small network.
+* Troubleshoot connectivity in a small network.
 
 
 ## path:

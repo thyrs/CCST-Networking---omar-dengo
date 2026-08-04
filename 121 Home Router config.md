@@ -19,12 +19,12 @@ Interface  │
 ```
 ## Basic Setup:
 
-> internet interface >> WAN Port >> (ISP) *
-> gig1 >> LAN Ports >> (LOCAL NETWORK) >> PC
-> connect PC and ask dhcp address
-> access broswer on PC > 192.168.0.1 (default gateway)
-> username: admin 
-> password: admin
+- "Internet interface" > WAN Port > (ISP) *
+- gig1 > LAN Ports > (LOCAL NETWORK) > PC
+- connect PC and ask dhcp address
+- access broswer on PC > 192.168.0.1 (default gateway)
+- username: admin 
+- password: admin
 
 ## Configuration options:
 
