@@ -49,17 +49,6 @@ Interface  │
     Setup > Basic Setup > Internet setup > Internet connection type (default DHCP)
     *Save settings
 
-## How to connect laptop to Wifi on packet tracer
-
-    1. Laptop > Physical tap
-        A. Turn off the Laptop 
-        B. Drag and drop the ethernet adaptor to the left
-        C. Drag and drop the WPC300N adaptor to the Laptop
-        D. Turn on Laptop 
-    
-    2. Desktop > PC wireless > Connect > Select wifi name > enter password and Connect.
-
-
 ## How to connect smartphone and table to a Wifi network
 
 * Open Smartphone/table > Config tab > Interface wireless0 > change SSID(wifi name) > select "WPA2-PSK" > add wifipassword > make sure "encryption type" is correct
@@ -106,3 +95,13 @@ Interface  │
 ## CMD
 * C:\>ipconfig /release 
 * C:\>ipconfig /renew
+
+## How to connect laptop to Wifi on packet tracer
+
+    1. Laptop > Physical tap
+        A. Turn off the Laptop 
+        B. Drag and drop the ethernet adaptor to the left
+        C. Drag and drop the WPC300N adaptor to the Laptop
+        D. Turn on Laptop 
+    
+    2. Desktop > PC wireless > Connect > Select wifi name > enter password and Connect.

@@ -61,7 +61,7 @@ WIFI = 802.11 (IEEE)
 - use MAC address to limit access to a wifi network
 
 ---
-# DHCP
+# DHCP (Dynamic Host configuration protocol)
 
 ## Static IPv4 Address Assignment
 
@@ -72,7 +72,7 @@ WIFI = 802.11 (IEEE)
 * __Default gateway__ - This identifies the networking device that the host uses to access the internet or another remote network.
 
 
-## DHCP Servers:
+## DHCP Server DORA process:
 ```
 ┌───────┐                       ┌────────┐
 │ My PC │          ┌──┬─────────┤  DHCP  │
@@ -100,3 +100,7 @@ WIFI = 802.11 (IEEE)
 __DHCP internal server (GUI):__
     - Setup > Basic setup > DHCP server Settings
 
+
+## CMD
+* C:\>ipconfig /release 
+* C:\>ipconfig /renew
