@@ -147,5 +147,3 @@ Configuration (27 pts)
 20.	Configure a legal message for the devices mentioned above. (3 pts)
 
 
-
-Responses: https://forms.office.com/r/T2jjCRPiWT
