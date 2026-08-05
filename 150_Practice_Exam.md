@@ -117,14 +117,14 @@ R/
 
 
 15.	A technichian performed the following changes:
-!- [Alt text](159_image.png)
+- [Alt text](159_image.png)
  
 When accessing the switch through Telnet, which password should be used?	(2 pts)
 R/
 
 16.	SW1-N2 received a frame containing the destination MAC address 00D0.582B.B8E8, and we captured the following information from the switch:
  
-!- [Alt text](159_image-1.png)
+- [Alt text](159_image-1.png)
 
 What will SW1-N2 do with the frame? (3 pts)
 R/ 
