@@ -19,10 +19,20 @@ By the end of the course, students will be able to:
 
 ## path:
 
-| CCST Networking   |       |
+<!-- | CCST Networking   |       |
 | ----------------- | ----- |
 | Checkpoint Exams  | 12%   |
 | Final Online Exam | 28%   |
+| Final LAB Exam    | 60%   |
+| TOTAL             | 100%* | -->
+
+### CCST Networking evaluation
+
+| CCST Networking   |       |
+| ----------------- | ----- |
+| Weekly labs       | 20%   |
+| Checkpoint Exams  | 10%   |
+| Final theory Exam | 10%   |
 | Final LAB Exam    | 60%   |
 | TOTAL             | 100%* |
 

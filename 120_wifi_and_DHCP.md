@@ -49,7 +49,7 @@ This port is used to connect the device to another network. The internet port co
 
 ## Choosing between Personal and Enterprise; 
 
-* __Personal__ = LOCAL wifi_name and password
+* __Personal__ = LOCAL wifi_name and password (also called PSK: pre-shared key)
 * __Enterprise__= REMOTE DATABASE user_name AND password
 
 WIFI = 802.11 (IEEE)
@@ -60,9 +60,10 @@ WIFI = 802.11 (IEEE)
 ## MAC address filtering
 - use MAC address to limit access to a wifi network
 
+---
+# DHCP
 
-
-# Static IPv4 Address Assignment
+## Static IPv4 Address Assignment
 
 - __How to change IP address in Win10__: Settings > Network & Internet > change adapter option > right click in the NIC > 
 
@@ -71,7 +72,7 @@ WIFI = 802.11 (IEEE)
 * __Default gateway__ - This identifies the networking device that the host uses to access the internet or another remote network.
 
 
-# DHCP Servers:
+## DHCP Servers:
 ```
 ┌───────┐                       ┌────────┐
 │ My PC │          ┌──┬─────────┤  DHCP  │
