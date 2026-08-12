@@ -19,7 +19,7 @@ There was a recent change on the network of your organization, which resulted in
 *	Network E:	172.16.121.1/21
 
 
- 
+ ![alt text](159_image1.png)
 
  The IP scheme is described on the table below:
 
@@ -117,14 +117,13 @@ R/
 
 
 15.	A technichian performed the following changes:
-- [Alt text](159_image.png)
+- ![Alt text](159_image.png)
  
 When accessing the switch through Telnet, which password should be used?	(2 pts)
 R/
 
 16.	SW1-N2 received a frame containing the destination MAC address 00D0.582B.B8E8, and we captured the following information from the switch:
- 
-- [Alt text](159_image-1.png)
+- ![Alt text](159_image-1.png)
 
 What will SW1-N2 do with the frame? (3 pts)
 R/ 
@@ -145,5 +144,6 @@ Configuration (27 pts)
 * Key size: 1200
 
 20.	Configure a legal message for the devices mentioned above. (3 pts)
+
 
 
