@@ -1,5 +1,7 @@
 
 
+
+
 ***The Packet Tracer file is only for Section B, Section C and Section D. Please don’t use it in other Sections.***
 
 # Section A - IP addressing (8 PTS)
@@ -131,4 +133,7 @@ Which of the following options will properly complete the frame above? (2pts)
 - User: wanderer02
 - Password: 0802
 - Key size: 1500
+
+
+---
 

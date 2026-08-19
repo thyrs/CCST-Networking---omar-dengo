@@ -6,7 +6,7 @@ This Networking Essentials course prepares you for the entry-level Cisco Certifi
 
 https://github.dev/thyrs/CCST-Networking---omar-dengo (github account needed)
 
-
+https://github.com/thyrs/CCST-Networking---omar-dengo
 
 ### Objectives
 By the end of the course, students will be able to:
