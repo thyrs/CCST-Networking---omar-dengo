@@ -1,5 +1,7 @@
 # **Win shortcuts Tips & tricks.md**
 
+**This lab is optional but very helpfull**
+
 Research and try the following keystrokes in windows, add a short description next to each of them. 
 
 * Ctrl + C 
